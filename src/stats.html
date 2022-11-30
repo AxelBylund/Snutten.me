@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Snutten</title>
+    <meta name="description" content="New site test">
+    <meta name="author" content="Me">
+
+    <meta property="og:title" content="A Basic site">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.snutten.me/">
+    <meta property="og:description" content="Dwa">
+    <meta property="og:image" content="image.png">
+
+    <link rel="icon" href="/favicon.ico">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+</head>
+
+<body>
+    <div class="container py-5">
+        <div class="row">
+            <canvas class="col" id="myChart"></canvas>
+            <canvas class="col" id="myChart1"></canvas>
+        </div>
+
+        <button onclick="addData()">Add data</button>
+        <button onclick="removeData()">Remove data</button>
+        <button onclick="updateConfigAsNewObject()">Update data as new object</button>
+
+        <div class="row">
+            <a href="index.html">Start</a>
+        </div>
+        <script src="../node_modules/chart.js/dist/chart.js"></script>
+        <script src="../node_modules/chart.js/dist/chart.map.js"></script>
+        <script src="../node_modules/chart.js/dist/chart.umd.js"></script>
+
+        <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+        <script src="js/main.js"></script>
+
+</body>
